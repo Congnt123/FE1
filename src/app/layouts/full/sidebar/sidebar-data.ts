@@ -2,63 +2,63 @@ import { NavItem } from './nav-item/nav-item';
 
 export const navItems: NavItem[] = [
   {
-    navCap: 'Home',
+    navCap: 'Trang Chủ',
   },
   {
-    displayName: 'Dashboard',
+    displayName: 'Bảng Điều Khiển',
     iconName: 'layout-grid-add',
     route: '/dashboard',
   },
   {
-    navCap: 'Ui Components',
+    navCap: 'Chức Năng',
   },
   {
-    displayName: 'Chips',
+    displayName: 'Lịch Sử Đơn Hàng',
     iconName: 'info-circle',
     route: '/ui-components/chips',
   },
   {
-    displayName: 'Lists',
+    displayName: 'Danh Sách Sản Phẩm',
     iconName: 'list-details',
     route: '/ui-components/lists',
   },
   {
-    displayName: 'category',
+    displayName: 'Danh Mục Sản Phẩm',
     iconName: 'list-details',
     route: '/ui-components/category', 
   },
   {
-    displayName: 'Forms',
+    displayName: 'Thêm Sản Phẩm',
     iconName: 'clipboard-text',
     route: '/ui-components/forms',
   },
   {
-    displayName: 'Tables',
+    displayName: 'Đơn Hàng',
     iconName: 'table',
     route: '/ui-components/tables',
   },
   {
-    navCap: 'Auth',
+    navCap: 'Xác Thực ',
   },
   {
-    displayName: 'Login',
+    displayName: 'Đăng Nhập',
     iconName: 'login',
     route: '/authentication',
     children: [
       {
-        displayName: 'Login',
+        displayName: 'Đăng Nhập',
         iconName: 'point',
         route: '/authentication/login',
       },
     ],
   },
   {
-    displayName: 'Register',
+    displayName: 'Đăng Kí',
     iconName: 'user-plus',
     route: '/authentication',
     children: [
       {
-        displayName: 'Register',
+        displayName: 'Đăng Kí',
         iconName: 'point',
         route: '/authentication/register',
       },
